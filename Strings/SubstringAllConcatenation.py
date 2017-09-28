@@ -13,7 +13,7 @@ You should return the indices: [0,9].
 
 """
 
-def findSubstring(self, s, words):
+def findSubstring(s, words):
     """
     :type s: str
     :type words: List[str]

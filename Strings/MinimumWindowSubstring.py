@@ -10,7 +10,7 @@ Minimum window is "BANC".
 
 """
 
-def minWindow(self, s, t):
+def minWindow(s, t):
     """
     :type s: str
     :type t: str
@@ -36,4 +36,3 @@ def minWindow(self, s, t):
                 if chars[s[j]] >= 0: required -= 1
             j += 1
     return minLength <= len(s) and s[start:start+minLength] or ''
-                                
