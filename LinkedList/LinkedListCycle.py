@@ -4,7 +4,7 @@ Given a linked list, determine if it has a cycle in it.
 Solve without extra space.
 """
 
-def hasCycle(self, head):
+def hasCycle(head):
     """
     :type head: ListNode
     :rtype: bool
