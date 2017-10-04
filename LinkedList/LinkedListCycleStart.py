@@ -5,7 +5,7 @@ Note: Do not modify the linked list.
 """
 
 
-def detectCycle(self, head):
+def detectCycle(head):
     """
     :type head: ListNode
     :rtype: ListNode
