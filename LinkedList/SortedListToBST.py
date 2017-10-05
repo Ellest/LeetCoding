@@ -23,15 +23,16 @@ def createTree(l, h, refHead):
     root.right = createTree(m+1, h, refHead)
     return root
 
+def lengthLL(head):
+    l = 0
+    while head:
+        length, head = length + 1, head.next
+
 def sortedListToBST(head):
     """
     :type head: ListNode
     :rtype: TreeNode
     """
-    
-    length = 0
-    itr = head
-    while itr:
-        length, itr = length + 1, itr.next
+    length = lengthLL(head)
     if not length: return # empty list
     return createTree(0, length-1, [head])
